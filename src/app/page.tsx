@@ -43,7 +43,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroSplitDualMedia
-          title="Transform Your Business with Expert Coaching & Digital Solutions"
+          title="Transform Your Business With Our Expert AI & Digital Solutions"
           description="Unlock your full potential with our comprehensive agency services. From stunning websites to AI-powered customer support, we deliver measurable results that accelerate your growth and elevate your competitive advantage."
           tag="Professional Coaching & Digital Agency"
           tagIcon={Sparkles}
