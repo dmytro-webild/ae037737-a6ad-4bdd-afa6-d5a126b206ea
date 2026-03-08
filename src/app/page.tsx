@@ -5,6 +5,7 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroSplitDualMedia from "@/components/sections/hero/HeroSplitDualMedia";
 import FeatureCardTwentyFive from "@/components/sections/feature/FeatureCardTwentyFive";
 import PricingCardTwo from "@/components/sections/pricing/PricingCardTwo";
+import TeamCardTen from "@/components/sections/team/TeamCardTen";
 import TestimonialCardSixteen from "@/components/sections/testimonial/TestimonialCardSixteen";
 import FaqSplitMedia from "@/components/sections/faq/FaqSplitMedia";
 import ContactText from "@/components/sections/contact/ContactText";
@@ -27,10 +28,11 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
-          brandName="webpidico"
+          brandName="CoachFlow"
           navItems={[
             { name: "Services", id: "features" },
             { name: "Pricing", id: "pricing" },
+            { name: "About", id: "team" },
             { name: "Testimonials", id: "testimonial" },
             { name: "FAQ", id: "faq" }
           ]}
@@ -179,6 +181,31 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="team" data-section="team">
+        <TeamCardTen
+          title="Meet Our Expert Team"
+          tag="Our Team"
+          tagAnimation="slide-up"
+          members={[
+            {
+              id: "1",              name: "Sarah Mitchell",              imageSrc: "http://img.b2bpic.net/free-photo/bald-man-with-beard-wearing-business-clothes-glasses-puffing-cheeks-with-funny-face-mouth-inflated-with-air-crazy-expression_839833-2502.jpg",              imageAlt: "Sarah Mitchell, Creative Director"
+            },
+            {
+              id: "2",              name: "David Chen",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-middle-aged-businesswoman_1262-21005.jpg",              imageAlt: "David Chen, Digital Strategist"
+            },
+            {
+              id: "3",              name: "Elena Rodriguez",              imageSrc: "http://img.b2bpic.net/free-photo/young-successful-businessman-thinking-posing-beige-wall_176420-144.jpg",              imageAlt: "Elena Rodriguez, Lead Developer"
+            },
+            {
+              id: "4",              name: "James Patterson",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-hispanic-female-executive-wearing-eyeglasses-standing-studio_662251-664.jpg",              imageAlt: "James Patterson, Marketing Manager"
+            }
+          ]}
+          memberVariant="default"
+          membersAnimation="slide-up"
+          useInvertedBackground={false}
+        />
+      </div>
+
       <div id="testimonial" data-section="testimonial">
         <TestimonialCardSixteen
           title="What Our Clients Say"
@@ -258,7 +285,7 @@ export default function LandingPage() {
           animationType="entrance-slide"
           buttons={[
             { text: "Schedule Free Consultation", href: "https://calendly.com" },
-            { text: "Contact Us", href: "mailto:hello@webpidico.com" }
+            { text: "Contact Us", href: "mailto:hello@coachflow.com" }
           ]}
           background={{ variant: "plain" }}
           useInvertedBackground={false}
@@ -267,24 +294,25 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
-          logoText="webpidico"
+          logoText="CoachFlow"
           columns={[
             {
               items: [
                 { label: "Services", href: "#features" },
                 { label: "Pricing", href: "#pricing" },
-                { label: "Testimonials", href: "#testimonial" }
+                { label: "About", href: "#team" }
               ]
             },
             {
               items: [
+                { label: "Testimonials", href: "#testimonial" },
                 { label: "FAQ", href: "#faq" },
-                { label: "Contact", href: "#contact" },
-                { label: "Privacy Policy", href: "#" }
+                { label: "Contact", href: "#contact" }
               ]
             },
             {
               items: [
+                { label: "Privacy Policy", href: "#" },
                 { label: "Terms of Service", href: "#" },
                 { label: "Careers", href: "#" }
               ]
