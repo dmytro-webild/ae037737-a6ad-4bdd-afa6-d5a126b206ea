@@ -43,14 +43,14 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroSplitDualMedia
-          title="Transform Your Business with Expert Coaching"
-          description="Unlock your full potential and build a thriving business. Our proven coaching strategies help entrepreneurs and executives achieve breakthrough growth and lasting success."
-          tag="Professional Coaching"
+          title="Transform Your Business with Expert Coaching & Digital Solutions"
+          description="Unlock your full potential with our comprehensive agency services. From stunning websites to AI-powered customer support, we deliver measurable results that accelerate your growth and elevate your competitive advantage."
+          tag="Professional Coaching & Digital Agency"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           buttons={[
             { text: "Book Your Free Consultation", href: "#contact" },
-            { text: "Learn More", href: "#features" }
+            { text: "Explore Services", href: "#features" }
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
@@ -63,21 +63,21 @@ export default function LandingPage() {
           ]}
           mediaAnimation="slide-up"
           rating={5}
-          ratingText="Trusted by 500+ businesses"
+          ratingText="Trusted by 500+ businesses worldwide"
           background={{ variant: "plain" }}
         />
       </div>
 
       <div id="features" data-section="features">
         <FeatureCardTwentyFive
-          title="Our Agency Services"
-          description="Comprehensive digital and business solutions designed to elevate your company and drive measurable results."
+          title="Comprehensive Agency Services"
+          description="Everything you need to build, market, and scale your business. From digital presence to customer engagement, we deliver integrated solutions that work together seamlessly."
           tag="What We Offer"
           tagIcon={Target}
           tagAnimation="slide-up"
           features={[
             {
-              title: "Website Design & Development",              description: "Custom, responsive websites built to convert. From e-commerce platforms to corporate sites, we create digital experiences that reflect your brand and drive results.",              icon: Globe,
+              title: "Website Design & Development",              description: "Custom, responsive websites built to convert. From e-commerce platforms to corporate sites, we create digital experiences that reflect your brand and drive measurable results. Mobile-optimized, SEO-ready, and focused on user experience.",              icon: Globe,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/web-design-concept-with-geometric-shapes_23-2151004903.jpg?_wi=1",                  imageAlt: "Website design and development"
@@ -88,7 +88,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Consulting & Revisions",              description: "Strategic guidance and continuous optimization for your digital presence. We partner with you through implementation, testing, and refinement to ensure maximum impact.",              icon: BarChart3,
+              title: "Consulting & Revisions",              description: "Strategic guidance and continuous optimization for your digital presence. We partner with you through implementation, testing, and refinement to ensure maximum impact. Regular performance reviews, A/B testing, and data-driven improvements.",              icon: BarChart3,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=2",                  imageAlt: "Business consulting session"
@@ -99,7 +99,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Advertising Campaigns",              description: "Data-driven advertising strategies across Google, Facebook, and LinkedIn. We target the right audience at the right time to maximize ROI and accelerate growth.",              icon: TrendingUp,
+              title: "Advertising Campaigns",              description: "Data-driven advertising strategies across Google, Facebook, and LinkedIn. We target the right audience at the right time to maximize ROI and accelerate growth. From campaign creation to ongoing optimization and detailed analytics reporting.",              icon: TrendingUp,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/marketing-strategy-concept-with-business-analytics_23-2150871025.jpg?_wi=3",                  imageAlt: "Digital advertising campaigns"
@@ -110,7 +110,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Social Media Management",              description: "Strategic content creation and community management across all platforms. Build authentic engagement, grow your followers, and establish thought leadership in your industry.",              icon: MessageSquare,
+              title: "Social Media Management",              description: "Strategic content creation and community management across all platforms. Build authentic engagement, grow your followers, and establish thought leadership in your industry. Daily posting, community engagement, and influencer partnerships.",              icon: MessageSquare,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/social-media-marketing-concept_23-2151206987.jpg?_wi=4",                  imageAlt: "Social media strategy and content"
@@ -121,7 +121,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "AI Call Assistant",              description: "Intelligent automated calling solutions for customer service, sales, and outreach. Our AI assistants handle inquiries 24/7, qualify leads, and provide instant support with human-like conversations.",              icon: Smartphone,
+              title: "AI Call Assistant",              description: "Intelligent automated calling solutions for customer service, sales, and outreach. Our AI assistants handle inquiries 24/7, qualify leads, and provide instant support with human-like conversations. Advanced NLP, multi-language support, and seamless integration.",              icon: Smartphone,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/customer-service-operator-with-headset_23-2151196547.jpg?_wi=5",                  imageAlt: "AI customer service assistant"
@@ -140,9 +140,9 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardTwo
-          title="Transparent Pricing Plans"
-          description="Choose the perfect plan for your business needs. All plans include dedicated support and performance tracking."
-          tag="Pricing"
+          title="Transparent Pricing for Every Business Size"
+          description="Choose the perfect plan aligned with your goals. All plans include dedicated support, performance analytics, and the flexibility to scale as you grow."
+          tag="Pricing Plans"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           plans={[
@@ -152,26 +152,26 @@ export default function LandingPage() {
                 { text: "Learn More", href: "#contact" }
               ],
               features: [
-                "Website or social media management",                "Basic SEO optimization",                "Monthly performance reports",                "Email support",                "Up to 5 revisions per month"
+                "Website design or social media management",                "Basic SEO optimization",                "Monthly performance reports",                "Email support (24hr response)",                "Up to 5 revisions per month",                "Monthly strategy consultation"
               ]
             },
             {
               id: "2",              badge: "Professional",              badgeIcon: Crown,
-              price: "$7,999/mo",              subtitle: "Comprehensive digital solutions",              buttons: [
+              price: "$7,999/mo",              subtitle: "Comprehensive digital solutions for growing businesses",              buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#contact" }
               ],
               features: [
-                "Custom website + advertising campaigns",                "Social media management across 3+ platforms",                "Advanced SEO and content strategy",                "Bi-weekly strategy calls",                "Unlimited revisions",                "Priority email & phone support",                "Monthly analytics dashboard"
+                "Custom website + advertising campaigns",                "Social media management (3+ platforms)",                "Advanced SEO and content strategy",                "Bi-weekly strategy calls",                "Unlimited revisions",                "Priority email & phone support",                "Monthly analytics dashboard",                "Performance optimization"
               ]
             },
             {
-              id: "3",              badge: "Enterprise",              price: "$15,999/mo",              subtitle: "Full-service agency partnership",              buttons: [
+              id: "3",              badge: "Enterprise",              price: "$15,999/mo",              subtitle: "Full-service agency partnership for enterprises",              buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#contact" }
               ],
               features: [
-                "Everything in Professional +",                "AI Call Assistant integration",                "Dedicated account manager",                "Weekly strategy sessions",                "Custom API integrations",                "24/7 priority support",                "Advanced automation workflows",                "Quarterly business reviews"
+                "Everything in Professional +",                "AI Call Assistant integration",                "Dedicated account manager",                "Weekly strategy sessions",                "Custom API integrations",                "24/7 priority support",                "Advanced automation workflows",                "Quarterly business reviews",                "Custom training and onboarding"
               ]
             }
           ]}
@@ -209,8 +209,8 @@ export default function LandingPage() {
       <div id="testimonial" data-section="testimonial">
         <TestimonialCardSixteen
           title="What Our Clients Say"
-          description="Real results from real businesses. Hear from entrepreneurs and executives who transformed their organizations through our services."
-          tag="Client Testimonials"
+          description="Real results from real businesses. Hear from entrepreneurs and executives who transformed their organizations through our comprehensive services and expert guidance."
+          tag="Client Success Stories"
           tagIcon={Heart}
           tagAnimation="slide-up"
           testimonials={[
@@ -234,7 +234,7 @@ export default function LandingPage() {
           kpiItems={[
             { value: "500+", label: "Businesses Transformed" },
             { value: "95%", label: "Client Success Rate" },
-            { value: "15+", label: "Years Experience" }
+            { value: "15+", label: "Years of Experience" }
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -245,28 +245,28 @@ export default function LandingPage() {
       <div id="faq" data-section="faq">
         <FaqSplitMedia
           title="Frequently Asked Questions"
-          description="Everything you need to know about our services and how we can help your business succeed."
-          tag="Support"
+          description="Get answers to common questions about our agency services and how we can help your business succeed."
+          tag="Support & Resources"
           tagIcon={HelpCircle}
           tagAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "How quickly will I see results from your services?",              content: "Timeline varies by service. Website projects typically launch in 4-8 weeks. Advertising campaigns often show initial results within 2-4 weeks. Social media and SEO are longer-term strategies that typically show significant results within 3-6 months."
+              id: "1",              title: "How quickly will I see results from your services?",              content: "Results vary by service. Website projects typically launch in 4-8 weeks. Advertising campaigns often show initial results within 2-4 weeks. Social media and SEO are longer-term strategies that show significant results within 3-6 months. Our AI Call Assistant can be operational within days of setup."
             },
             {
-              id: "2",              title: "What's included in the AI Call Assistant service?",              content: "Our AI Call Assistant handles customer inquiries, qualifies leads, schedules appointments, and provides 24/7 support. It integrates with your existing systems, learns from interactions, and seamlessly transfers complex issues to your team when needed."
+              id: "2",              title: "What's included in the AI Call Assistant service?",              content: "Our AI Call Assistant handles customer inquiries, qualifies leads, schedules appointments, and provides 24/7 support. It integrates with your existing systems, learns from interactions, and seamlessly transfers complex issues to your team when needed. Includes analytics and detailed reporting on all interactions."
             },
             {
-              id: "3",              title: "Can I upgrade or downgrade my plan anytime?",              content: "Yes. We offer flexible plans with month-to-month agreements. You can adjust your service level at any time with 30 days notice. There are no long-term contracts or hidden fees."
+              id: "3",              title: "Can I upgrade or downgrade my plan anytime?",              content: "Yes. We offer flexible plans with month-to-month agreements. You can adjust your service level at any time with 30 days notice. There are no long-term contracts or hidden fees. We want to work with you as your needs evolve."
             },
             {
-              id: "4",              title: "How do you approach social media management?",              content: "We create a custom content calendar aligned with your brand voice and business goals. This includes content creation, community management, engagement, and monthly performance analytics. We focus on building authentic connections with your audience."
+              id: "4",              title: "How do you approach social media management?",              content: "We create a custom content calendar aligned with your brand voice and business goals. This includes content creation, community management, engagement, and monthly performance analytics. We focus on building authentic connections with your audience and driving meaningful engagement."
             },
             {
-              id: "5",              title: "What advertising platforms do you manage?",              content: "We specialize in Google Ads (search, display, shopping), Facebook & Instagram ads, LinkedIn advertising, and retargeting campaigns. We choose the best platforms based on your target audience and business objectives."
+              id: "5",              title: "What advertising platforms do you manage?",              content: "We specialize in Google Ads (search, display, shopping), Facebook & Instagram ads, LinkedIn advertising, and retargeting campaigns. We choose the best platforms based on your target audience and business objectives to maximize your ROI."
             },
             {
-              id: "6",              title: "Do you offer support for existing websites?",              content: "Absolutely. Our Consulting & Revisions service includes website optimization, performance improvements, conversion rate optimization, and ongoing maintenance. We can work with websites built on any platform."
+              id: "6",              title: "Do you offer support for existing websites?",              content: "Absolutely. Our Consulting & Revisions service includes website optimization, performance improvements, conversion rate optimization, and ongoing maintenance. We can work with websites built on any platform and provide strategic guidance to improve performance."
             }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/close-up-customer-service-operator-assisting-customers-with-issues_482257-117959.jpg"
@@ -281,7 +281,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactText
-          text="Ready to transform your business and achieve your digital goals? Let's work together to create something exceptional."
+          text="Ready to transform your business and achieve your digital goals? Let's work together to create something exceptional and drive measurable growth."
           animationType="entrance-slide"
           buttons={[
             { text: "Schedule Free Consultation", href: "https://calendly.com" },
