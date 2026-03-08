@@ -94,7 +94,7 @@ export default function LandingPage() {
                   imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=2",                  imageAlt: "Business consulting session"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg?_wi=2",                  imageAlt: "Strategy and optimization planning"
+                  imageSrc: "http://img.b2bpic.net/free-photo/cropped-colleagues-generating-business-ideas_1098-19137.jpg?id=5699117",                  imageAlt: "Strategy and optimization planning"
                 }
               ]
             },
