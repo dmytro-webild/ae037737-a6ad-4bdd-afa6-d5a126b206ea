@@ -147,7 +147,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           plans={[
             {
-              id: "1",              badge: "Starter",              price: "$2,999/mo",              subtitle: "Perfect for small businesses getting started",              buttons: [
+              id: "1",              badge: "Starter",              price: "$999",              subtitle: "Perfect for small businesses getting started",              buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#contact" }
               ],
@@ -157,7 +157,7 @@ export default function LandingPage() {
             },
             {
               id: "2",              badge: "Professional",              badgeIcon: Crown,
-              price: "$7,999/mo",              subtitle: "Comprehensive digital solutions for growing businesses",              buttons: [
+              price: "$1,599",              subtitle: "Comprehensive digital solutions for growing businesses",              buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#contact" }
               ],
@@ -166,7 +166,7 @@ export default function LandingPage() {
               ]
             },
             {
-              id: "3",              badge: "Enterprise",              price: "$15,999/mo",              subtitle: "Full-service agency partnership for enterprises",              buttons: [
+              id: "3",              badge: "Enterprise",              price: "$2,399",              subtitle: "Full-service agency partnership for enterprises",              buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#contact" }
               ],
