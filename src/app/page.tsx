@@ -53,10 +53,10 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           mediaItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/businessman-suit-working-tablet-with-charts-conference-room-team-brainstorm_482257-31840.jpg",              imageAlt: "Business coaching session with professional mentor"
+              imageSrc: "http://img.b2bpic.net/free-photo/businessman-suit-working-tablet-with-charts-conference-room-team-brainstorm_482257-31840.jpg?_wi=1",              imageAlt: "Business coaching session with professional mentor"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg",              imageAlt: "Business growth metrics and success visualization"
+              imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg?_wi=1",              imageAlt: "Business growth metrics and success visualization"
             }
           ]}
           mediaAnimation="slide-up"
@@ -78,10 +78,10 @@ export default function LandingPage() {
               title: "Executive Leadership Coaching",              description: "Develop strategic leadership skills to inspire teams and drive organizational excellence. Build confidence and decision-making capabilities.",              icon: Crown,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg",                  imageAlt: "Executive leadership coaching session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=1",                  imageAlt: "Executive leadership coaching session"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg",                  imageAlt: "Leadership strategy planning"
+                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=1",                  imageAlt: "Leadership strategy planning"
                 }
               ]
             },
@@ -89,10 +89,10 @@ export default function LandingPage() {
               title: "Business Strategy & Growth",              description: "Create actionable roadmaps for sustainable business growth. From market positioning to revenue scaling, we guide every step.",              icon: TrendingUp,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg",                  imageAlt: "Business strategy development"
+                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=2",                  imageAlt: "Business strategy development"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg",                  imageAlt: "Growth metrics visualization"
+                  imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg?_wi=2",                  imageAlt: "Growth metrics visualization"
                 }
               ]
             },
@@ -100,10 +100,10 @@ export default function LandingPage() {
               title: "Personal Development Coaching",              description: "Unlock your potential through personalized development plans. Build resilience, confidence, and achieve your professional goals.",              icon: Zap,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/businessman-suit-working-tablet-with-charts-conference-room-team-brainstorm_482257-31840.jpg",                  imageAlt: "Personal coaching session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/businessman-suit-working-tablet-with-charts-conference-room-team-brainstorm_482257-31840.jpg?_wi=2",                  imageAlt: "Personal coaching session"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg",                  imageAlt: "Professional development"
+                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=2",                  imageAlt: "Professional development"
                 }
               ]
             },
@@ -111,10 +111,10 @@ export default function LandingPage() {
               title: "Team Performance Coaching",              description: "Transform team dynamics and productivity. Improve communication, collaboration, and accountability across your organization.",              icon: Users,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg",                  imageAlt: "Team coaching workshop"
+                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=3",                  imageAlt: "Team coaching workshop"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg",                  imageAlt: "Team collaboration session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=3",                  imageAlt: "Team collaboration session"
                 }
               ]
             }
