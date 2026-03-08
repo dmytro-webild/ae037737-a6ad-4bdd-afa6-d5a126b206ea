@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "./globals.css";
 import "./styles/variables.css";
 import "./styles/base.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "webpidico - Digital Solutions & Coaching",  description: "Transform your business with expert digital solutions and professional coaching services."};
+  title: "CoachFlow - Business Coaching & Digital Agency Services",  description: "Transform your business with expert coaching, web design, advertising, social media management, and AI call assistant solutions."};
 
 export default function RootLayout({
   children,
@@ -18,16 +19,21 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                document.documentElement.classList.add('dark')
-              } else {
-                document.documentElement.classList.remove('dark')
-              }
-            `,
-          }}
-        />
+          async
+          src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
+        ></script>
+        <script>
+          {`
+            const lenis = new Lenis();
+
+            function raf(time) {
+              lenis.raf(time);
+              requestAnimationFrame(raf);
+            }
+
+            requestAnimationFrame(raf);
+          `}
+        </script>
       
         <script
           dangerouslySetInnerHTML={{
