@@ -124,10 +124,10 @@ export default function LandingPage() {
               title: "AI Call Assistant",              description: "Intelligent automated calling solutions for customer service, sales, and outreach. Our AI assistants handle inquiries 24/7, qualify leads, and provide instant support with human-like conversations. Advanced NLP, multi-language support, and seamless integration.",              icon: Smartphone,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/customer-service-operator-with-headset_23-2151196547.jpg?_wi=5",                  imageAlt: "AI customer service assistant"
+                  imageSrc: "http://img.b2bpic.net/free-photo/cheerful-businessman-sitting-by-table-cafe-with-laptop-computer-talking-by-smartphone-while-waving-looking-away_171337-5560.jpg?id=6874920",                  imageAlt: "AI customer service assistant"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/automated-support-system_23-2151205896.jpg?_wi=5",                  imageAlt: "AI assistant technology"
+                  imageSrc: "http://img.b2bpic.net/premium-photo/businesswoman-assistant-phone-call-with-paperwork-office-meeting-confirmation-schedule-networking-female-person-talking-contact-us-corporate-consultation-cellphone-notes_590464-374234.jpg?id=258636656",                  imageAlt: "AI assistant technology"
                 }
               ]
             }
