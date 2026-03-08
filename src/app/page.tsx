@@ -80,7 +80,7 @@ export default function LandingPage() {
               title: "Website Design & Development",              description: "Custom, responsive websites built to convert. From e-commerce platforms to corporate sites, we create digital experiences that reflect your brand and drive measurable results. Mobile-optimized, SEO-ready, and focused on user experience.",              icon: Globe,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/web-design-concept-with-geometric-shapes_23-2151004903.jpg?_wi=1",                  imageAlt: "Website design and development"
+                  imageSrc: "http://img.b2bpic.net/premium-photo/videographer-camera-hands-man-with-lens-photography-production-media-scenes-backstage-person-with-stabilizing-equipment-set-shooting-videos-documentary-film_590464-424877.jpg?id=353569622",                  imageAlt: "Website design and development"
                 },
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/responsive-web-design-illustration_23-2151097929.jpg?_wi=1",                  imageAlt: "Responsive web design showcase"
