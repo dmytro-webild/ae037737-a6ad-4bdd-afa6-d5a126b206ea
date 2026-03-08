@@ -5,7 +5,6 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroSplitDualMedia from "@/components/sections/hero/HeroSplitDualMedia";
 import FeatureCardTwentyFive from "@/components/sections/feature/FeatureCardTwentyFive";
 import PricingCardTwo from "@/components/sections/pricing/PricingCardTwo";
-import TestimonialCardSixteen from "@/components/sections/testimonial/TestimonialCardSixteen";
 import FaqSplitMedia from "@/components/sections/faq/FaqSplitMedia";
 import ContactText from "@/components/sections/contact/ContactText";
 import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
@@ -31,7 +30,6 @@ export default function LandingPage() {
           navItems={[
             { name: "Services", id: "features" },
             { name: "Pricing", id: "pricing" },
-            { name: "Testimonials", id: "testimonial" },
             { name: "FAQ", id: "faq" }
           ]}
           button={{ text: "Start Your Journey", href: "#contact" }}
@@ -179,42 +177,6 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonial" data-section="testimonial">
-        <TestimonialCardSixteen
-          title="What Our Clients Say"
-          description="Real results from real businesses. Hear from entrepreneurs and executives who transformed their organizations through our comprehensive services and expert guidance."
-          tag="Client Success Stories"
-          tagIcon={Heart}
-          tagAnimation="slide-up"
-          testimonials={[
-            {
-              id: "1",              name: "Michael Johnson",              role: "CEO",              company: "TechVision Inc",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-businessman-with-tie_1098-2867.jpg",              imageAlt: "Michael Johnson, CEO"
-            },
-            {
-              id: "2",              name: "Lisa Anderson",              role: "Founder",              company: "Growth Ventures",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiley-businesswoman-posing-with-her-arms-crossed_23-2148826474.jpg",              imageAlt: "Lisa Anderson, Founder"
-            },
-            {
-              id: "3",              name: "Robert Kumar",              role: "Director",              company: "Strategic Solutions",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-professional-businesswoman-indoors_23-2148824826.jpg",              imageAlt: "Robert Kumar, Director"
-            },
-            {
-              id: "4",              name: "Jennifer Lee",              role: "Managing Partner",              company: "Executive Consulting",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-business-woman-portrait_23-2149280717.jpg",              imageAlt: "Jennifer Lee, Managing Partner"
-            }
-          ]}
-          kpiItems={[
-            { value: "500+", label: "Businesses Transformed" },
-            { value: "95%", label: "Client Success Rate" },
-            { value: "15+", label: "Years of Experience" }
-          ]}
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-        />
-      </div>
-
       <div id="faq" data-section="faq">
         <FaqSplitMedia
           title="Frequently Asked Questions"
@@ -273,12 +235,11 @@ export default function LandingPage() {
               items: [
                 { label: "Services", href: "#features" },
                 { label: "Pricing", href: "#pricing" },
-                { label: "Testimonials", href: "#testimonial" }
+                { label: "FAQ", href: "#faq" }
               ]
             },
             {
               items: [
-                { label: "FAQ", href: "#faq" },
                 { label: "Contact", href: "#contact" },
                 { label: "Privacy Policy", href: "#" }
               ]
