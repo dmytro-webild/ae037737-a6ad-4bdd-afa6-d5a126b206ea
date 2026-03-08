@@ -102,10 +102,10 @@ export default function LandingPage() {
               title: "Advertising Campaigns",              description: "Data-driven advertising strategies across Google, Facebook, and LinkedIn. We target the right audience at the right time to maximize ROI and accelerate growth. From campaign creation to ongoing optimization and detailed analytics reporting.",              icon: TrendingUp,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/marketing-strategy-concept-with-business-analytics_23-2150871025.jpg?_wi=3",                  imageAlt: "Digital advertising campaigns"
+                  imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-holding-coffee-cup-sitting-with-his-colleagues-office_23-2147923351.jpg?id=3329220",                  imageAlt: "Digital advertising campaigns"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/data-analytics-dashboard_23-2151197319.jpg?_wi=3",                  imageAlt: "Analytics and performance tracking"
+                  imageSrc: "http://img.b2bpic.net/premium-photo/abstract-texture-acrylic-painting-geometric-art-modern-background_1203078-4304.jpg?id=262975550",                  imageAlt: "Analytics and performance tracking"
                 }
               ]
             },
