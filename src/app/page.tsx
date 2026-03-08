@@ -4,12 +4,13 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import HeroSplitDualMedia from "@/components/sections/hero/HeroSplitDualMedia";
 import FeatureCardTwentyFive from "@/components/sections/feature/FeatureCardTwentyFive";
+import PricingCardTwo from "@/components/sections/pricing/PricingCardTwo";
 import TeamCardTen from "@/components/sections/team/TeamCardTen";
 import TestimonialCardSixteen from "@/components/sections/testimonial/TestimonialCardSixteen";
 import FaqSplitMedia from "@/components/sections/faq/FaqSplitMedia";
 import ContactText from "@/components/sections/contact/ContactText";
 import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
-import { Sparkles, Target, Crown, TrendingUp, Zap, Users, Heart, HelpCircle } from "lucide-react";
+import { Sparkles, Target, Crown, TrendingUp, Zap, Users, Heart, HelpCircle, Globe, MessageSquare, BarChart3, Smartphone } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -30,6 +31,7 @@ export default function LandingPage() {
           brandName="CoachFlow"
           navItems={[
             { name: "Services", id: "features" },
+            { name: "Pricing", id: "pricing" },
             { name: "About", id: "team" },
             { name: "Testimonials", id: "testimonial" },
             { name: "FAQ", id: "faq" }
@@ -68,54 +70,108 @@ export default function LandingPage() {
 
       <div id="features" data-section="features">
         <FeatureCardTwentyFive
-          title="Our Coaching Services"
-          description="Comprehensive coaching solutions designed to elevate your business and leadership capabilities."
+          title="Our Agency Services"
+          description="Comprehensive digital and business solutions designed to elevate your company and drive measurable results."
           tag="What We Offer"
           tagIcon={Target}
           tagAnimation="slide-up"
           features={[
             {
-              title: "Executive Leadership Coaching",              description: "Develop strategic leadership skills to inspire teams and drive organizational excellence. Build confidence and decision-making capabilities.",              icon: Crown,
+              title: "Website Design & Development",              description: "Custom, responsive websites built to convert. From e-commerce platforms to corporate sites, we create digital experiences that reflect your brand and drive results.",              icon: Globe,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=1",                  imageAlt: "Executive leadership coaching session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/web-design-concept-with-geometric-shapes_23-2151004903.jpg?_wi=1",                  imageAlt: "Website design and development"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=1",                  imageAlt: "Leadership strategy planning"
+                  imageSrc: "http://img.b2bpic.net/free-photo/responsive-web-design-illustration_23-2151097929.jpg?_wi=1",                  imageAlt: "Responsive web design showcase"
                 }
               ]
             },
             {
-              title: "Business Strategy & Growth",              description: "Create actionable roadmaps for sustainable business growth. From market positioning to revenue scaling, we guide every step.",              icon: TrendingUp,
+              title: "Consulting & Revisions",              description: "Strategic guidance and continuous optimization for your digital presence. We partner with you through implementation, testing, and refinement to ensure maximum impact.",              icon: BarChart3,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=2",                  imageAlt: "Business strategy development"
+                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=2",                  imageAlt: "Business consulting session"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg?_wi=2",                  imageAlt: "Growth metrics visualization"
+                  imageSrc: "http://img.b2bpic.net/free-vector/economic-growth_24877-49230.jpg?_wi=2",                  imageAlt: "Strategy and optimization planning"
                 }
               ]
             },
             {
-              title: "Personal Development Coaching",              description: "Unlock your potential through personalized development plans. Build resilience, confidence, and achieve your professional goals.",              icon: Zap,
+              title: "Advertising Campaigns",              description: "Data-driven advertising strategies across Google, Facebook, and LinkedIn. We target the right audience at the right time to maximize ROI and accelerate growth.",              icon: TrendingUp,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/businessman-suit-working-tablet-with-charts-conference-room-team-brainstorm_482257-31840.jpg?_wi=2",                  imageAlt: "Personal coaching session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/marketing-strategy-concept-with-business-analytics_23-2150871025.jpg?_wi=3",                  imageAlt: "Digital advertising campaigns"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=2",                  imageAlt: "Professional development"
+                  imageSrc: "http://img.b2bpic.net/free-photo/data-analytics-dashboard_23-2151197319.jpg?_wi=3",                  imageAlt: "Analytics and performance tracking"
                 }
               ]
             },
             {
-              title: "Team Performance Coaching",              description: "Transform team dynamics and productivity. Improve communication, collaboration, and accountability across your organization.",              icon: Users,
+              title: "Social Media Management",              description: "Strategic content creation and community management across all platforms. Build authentic engagement, grow your followers, and establish thought leadership in your industry.",              icon: MessageSquare,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/leader-authority-boss-coach-director-manager-concept_53876-133859.jpg?_wi=3",                  imageAlt: "Team coaching workshop"
+                  imageSrc: "http://img.b2bpic.net/free-photo/social-media-marketing-concept_23-2151206987.jpg?_wi=4",                  imageAlt: "Social media strategy and content"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/business-people-discussing-charts-graphs-showing-results-their-successful-teamwork_1423-252.jpg?_wi=3",                  imageAlt: "Team collaboration session"
+                  imageSrc: "http://img.b2bpic.net/free-photo/social-network-concept-with-friends_23-2150873081.jpg?_wi=4",                  imageAlt: "Community engagement and growth"
                 }
+              ]
+            },
+            {
+              title: "AI Call Assistant",              description: "Intelligent automated calling solutions for customer service, sales, and outreach. Our AI assistants handle inquiries 24/7, qualify leads, and provide instant support with human-like conversations.",              icon: Smartphone,
+              mediaItems: [
+                {
+                  imageSrc: "http://img.b2bpic.net/free-photo/customer-service-operator-with-headset_23-2151196547.jpg?_wi=5",                  imageAlt: "AI customer service assistant"
+                },
+                {
+                  imageSrc: "http://img.b2bpic.net/free-photo/automated-support-system_23-2151205896.jpg?_wi=5",                  imageAlt: "AI assistant technology"
+                }
+              ]
+            }
+          ]}
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={false}
+        />
+      </div>
+
+      <div id="pricing" data-section="pricing">
+        <PricingCardTwo
+          title="Transparent Pricing Plans"
+          description="Choose the perfect plan for your business needs. All plans include dedicated support and performance tracking."
+          tag="Pricing"
+          tagIcon={Sparkles}
+          tagAnimation="slide-up"
+          plans={[
+            {
+              id: "1",              badge: "Starter",              price: "$2,999/mo",              subtitle: "Perfect for small businesses getting started",              buttons: [
+                { text: "Get Started", href: "#contact" },
+                { text: "Learn More", href: "#contact" }
+              ],
+              features: [
+                "Website or social media management",                "Basic SEO optimization",                "Monthly performance reports",                "Email support",                "Up to 5 revisions per month"
+              ]
+            },
+            {
+              id: "2",              badge: "Professional",              badgeIcon: Crown,
+              price: "$7,999/mo",              subtitle: "Comprehensive digital solutions",              buttons: [
+                { text: "Get Started", href: "#contact" },
+                { text: "Learn More", href: "#contact" }
+              ],
+              features: [
+                "Custom website + advertising campaigns",                "Social media management across 3+ platforms",                "Advanced SEO and content strategy",                "Bi-weekly strategy calls",                "Unlimited revisions",                "Priority email & phone support",                "Monthly analytics dashboard"
+              ]
+            },
+            {
+              id: "3",              badge: "Enterprise",              price: "$15,999/mo",              subtitle: "Full-service agency partnership",              buttons: [
+                { text: "Get Started", href: "#contact" },
+                { text: "Learn More", href: "#contact" }
+              ],
+              features: [
+                "Everything in Professional +",                "AI Call Assistant integration",                "Dedicated account manager",                "Weekly strategy sessions",                "Custom API integrations",                "24/7 priority support",                "Advanced automation workflows",                "Quarterly business reviews"
               ]
             }
           ]}
@@ -127,21 +183,21 @@ export default function LandingPage() {
 
       <div id="team" data-section="team">
         <TeamCardTen
-          title="Meet Our Expert Coaches"
+          title="Meet Our Expert Team"
           tag="Our Team"
           tagAnimation="slide-up"
           members={[
             {
-              id: "1",              name: "Sarah Mitchell",              imageSrc: "http://img.b2bpic.net/free-photo/bald-man-with-beard-wearing-business-clothes-glasses-puffing-cheeks-with-funny-face-mouth-inflated-with-air-crazy-expression_839833-2502.jpg",              imageAlt: "Sarah Mitchell, Executive Coach"
+              id: "1",              name: "Sarah Mitchell",              imageSrc: "http://img.b2bpic.net/free-photo/bald-man-with-beard-wearing-business-clothes-glasses-puffing-cheeks-with-funny-face-mouth-inflated-with-air-crazy-expression_839833-2502.jpg",              imageAlt: "Sarah Mitchell, Creative Director"
             },
             {
-              id: "2",              name: "David Chen",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-middle-aged-businesswoman_1262-21005.jpg",              imageAlt: "David Chen, Business Strategy Coach"
+              id: "2",              name: "David Chen",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-middle-aged-businesswoman_1262-21005.jpg",              imageAlt: "David Chen, Digital Strategist"
             },
             {
-              id: "3",              name: "Elena Rodriguez",              imageSrc: "http://img.b2bpic.net/free-photo/young-successful-businessman-thinking-posing-beige-wall_176420-144.jpg",              imageAlt: "Elena Rodriguez, Leadership Coach"
+              id: "3",              name: "Elena Rodriguez",              imageSrc: "http://img.b2bpic.net/free-photo/young-successful-businessman-thinking-posing-beige-wall_176420-144.jpg",              imageAlt: "Elena Rodriguez, Lead Developer"
             },
             {
-              id: "4",              name: "James Patterson",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-hispanic-female-executive-wearing-eyeglasses-standing-studio_662251-664.jpg",              imageAlt: "James Patterson, Performance Coach"
+              id: "4",              name: "James Patterson",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-hispanic-female-executive-wearing-eyeglasses-standing-studio_662251-664.jpg",              imageAlt: "James Patterson, Marketing Manager"
             }
           ]}
           memberVariant="default"
@@ -153,7 +209,7 @@ export default function LandingPage() {
       <div id="testimonial" data-section="testimonial">
         <TestimonialCardSixteen
           title="What Our Clients Say"
-          description="Real results from real businesses. Hear from entrepreneurs and executives who transformed their organizations through our coaching."
+          description="Real results from real businesses. Hear from entrepreneurs and executives who transformed their organizations through our services."
           tag="Client Testimonials"
           tagIcon={Heart}
           tagAnimation="slide-up"
@@ -189,32 +245,32 @@ export default function LandingPage() {
       <div id="faq" data-section="faq">
         <FaqSplitMedia
           title="Frequently Asked Questions"
-          description="Everything you need to know about our coaching programs and how we can help your business succeed."
+          description="Everything you need to know about our services and how we can help your business succeed."
           tag="Support"
           tagIcon={HelpCircle}
           tagAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "How long does a typical coaching engagement last?",              content: "Most clients see significant results within 3-6 months of consistent coaching. We typically recommend a 6-12 month engagement for comprehensive transformation. Programs are customized based on your specific goals and current situation."
+              id: "1",              title: "How quickly will I see results from your services?",              content: "Timeline varies by service. Website projects typically launch in 4-8 weeks. Advertising campaigns often show initial results within 2-4 weeks. Social media and SEO are longer-term strategies that typically show significant results within 3-6 months."
             },
             {
-              id: "2",              title: "What makes your coaching approach different?",              content: "We combine proven methodologies with personalized strategies tailored to your unique business context. Our coaches bring 15+ years of direct business experience, not just theory. We focus on measurable results and sustainable change."
+              id: "2",              title: "What's included in the AI Call Assistant service?",              content: "Our AI Call Assistant handles customer inquiries, qualifies leads, schedules appointments, and provides 24/7 support. It integrates with your existing systems, learns from interactions, and seamlessly transfers complex issues to your team when needed."
             },
             {
-              id: "3",              title: "How much does coaching cost?",              content: "Coaching investments range from $3,000-$15,000+ depending on the program length and scope. We offer flexible packages to fit different business sizes and budgets. Schedule a free consultation to discuss options tailored to your needs."
+              id: "3",              title: "Can I upgrade or downgrade my plan anytime?",              content: "Yes. We offer flexible plans with month-to-month agreements. You can adjust your service level at any time with 30 days notice. There are no long-term contracts or hidden fees."
             },
             {
-              id: "4",              title: "Can coaching help if my business is struggling?",              content: "Absolutely. Many of our most successful transformations started with struggling businesses. We help identify root causes, restructure operations, and implement turnaround strategies to get you back on track."
+              id: "4",              title: "How do you approach social media management?",              content: "We create a custom content calendar aligned with your brand voice and business goals. This includes content creation, community management, engagement, and monthly performance analytics. We focus on building authentic connections with your audience."
             },
             {
-              id: "5",              title: "What's the first step to getting started?",              content: "Book a free 30-minute consultation with one of our coaches. We'll discuss your challenges, goals, and how our coaching can specifically help your business grow and succeed."
+              id: "5",              title: "What advertising platforms do you manage?",              content: "We specialize in Google Ads (search, display, shopping), Facebook & Instagram ads, LinkedIn advertising, and retargeting campaigns. We choose the best platforms based on your target audience and business objectives."
             },
             {
-              id: "6",              title: "Do you offer remote coaching?",              content: "Yes, all our coaching programs are available via video conferencing for maximum flexibility. Whether you're local or international, we can work with your schedule and time zone."
+              id: "6",              title: "Do you offer support for existing websites?",              content: "Absolutely. Our Consulting & Revisions service includes website optimization, performance improvements, conversion rate optimization, and ongoing maintenance. We can work with websites built on any platform."
             }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/close-up-customer-service-operator-assisting-customers-with-issues_482257-117959.jpg"
-          imageAlt="Professional coaching support environment"
+          imageAlt="Professional support and consulting environment"
           mediaAnimation="slide-up"
           faqsAnimation="slide-up"
           mediaPosition="left"
@@ -225,7 +281,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactText
-          text="Ready to transform your business and unlock your full potential? Let's start your coaching journey today."
+          text="Ready to transform your business and achieve your digital goals? Let's work together to create something exceptional."
           animationType="entrance-slide"
           buttons={[
             { text: "Schedule Free Consultation", href: "https://calendly.com" },
@@ -243,15 +299,15 @@ export default function LandingPage() {
             {
               items: [
                 { label: "Services", href: "#features" },
-                { label: "About", href: "#team" },
-                { label: "Testimonials", href: "#testimonial" }
+                { label: "Pricing", href: "#pricing" },
+                { label: "About", href: "#team" }
               ]
             },
             {
               items: [
+                { label: "Testimonials", href: "#testimonial" },
                 { label: "FAQ", href: "#faq" },
-                { label: "Contact", href: "#contact" },
-                { label: "Blog", href: "#" }
+                { label: "Contact", href: "#contact" }
               ]
             },
             {
